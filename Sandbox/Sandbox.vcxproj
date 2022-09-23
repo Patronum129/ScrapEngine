@@ -82,6 +82,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sandbox.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScrapEngine.vcxproj">
+      <Project>{204332f8-f2df-4e43-90ec-0fc8ec7f7290}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
