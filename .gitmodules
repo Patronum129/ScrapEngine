@@ -1,0 +1,3 @@
+[submodule "ScrapEngine/vendor/spdlog"]
+	path = ScrapEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
