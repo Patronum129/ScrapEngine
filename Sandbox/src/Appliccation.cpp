@@ -1,9 +1,8 @@
-
 namespace ScrapEngine {
 	__declspec(dllimport) void Print();
 }
 
-void main() 
+void main()
 {
 	ScrapEngine::Print();
 }
