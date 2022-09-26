@@ -24,8 +24,7 @@ project "ScrapEngine"
         systemversion "latest"
         
         defines { "SE_PLATFORM_WINDOWS",
-                  "SE_BUILD_DLL",
-                  "_WINDLL"}
+                  "SE_BUILD_DLL"}
     
         postbuildcommands{
             ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox")
