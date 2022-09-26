@@ -1,3 +1,2 @@
-﻿  Appliccation.cpp
-D:\ScrapEngine\Sandbox\src\Appliccation.cpp(6,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Sandbox.vcxproj -> D:\ScrapEngine\bin\Debug-x64\Sandbox\Sandbox.exe
+﻿  SandboxApp.cpp
+  Sandbox.vcxproj -> C:\Users\guerr\OneDrive\Documentos\GitHub\ScrapEngine\bin\Debug-x64\Sandbox\Sandbox.exe
