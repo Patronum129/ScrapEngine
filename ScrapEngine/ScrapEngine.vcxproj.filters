@@ -19,6 +19,10 @@
     <ClInclude Include="src\ScrapEngine\Log.h">
       <Filter>ScrapEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\ScrapEngine\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\ScrapEngine\Events\Event.h" />
+    <ClInclude Include="src\ScrapEngine\Events\KeyEvent.h" />
+    <ClInclude Include="src\ScrapEngine\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\ScrapEngine\Application.cpp">

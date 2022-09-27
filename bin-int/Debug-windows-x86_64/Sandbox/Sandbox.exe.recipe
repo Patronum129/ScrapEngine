@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\hangx\Documents\GitHub\ScrapEngine\bin\Debug-windows-x86_64\ScrapEngine\ScrapEngine.dll</FullPath>
+      <FullPath>D:\ScrapEngine\bin\Debug-windows-x86_64\ScrapEngine\ScrapEngine.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\hangx\Documents\GitHub\ScrapEngine\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe</FullPath>
+      <FullPath>D:\ScrapEngine\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
