@@ -66,7 +66,7 @@ project "Sandbox"
         defines { "SE_PLATFORM_WINDOWS"}
     
         postbuildcommands{
-            ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox")
+            
         }
 
    filter "configurations:Debug"

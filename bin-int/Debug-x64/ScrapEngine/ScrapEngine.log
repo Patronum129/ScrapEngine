@@ -1,9 +1,0 @@
-﻿  Log.cpp
-D:\ScrapEngine\ScrapEngine\src\ScrapEngine\Log.h(19,54): warning C4251: 'ScrapEngine::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'ScrapEngine::Log'
-D:\ScrapEngine\ScrapEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
-D:\ScrapEngine\ScrapEngine\src\ScrapEngine\Log.h(20,56): warning C4251: 'ScrapEngine::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'ScrapEngine::Log'
-D:\ScrapEngine\ScrapEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
-  Application.cpp
-  Generating Code...
-     Creating library D:\ScrapEngine\bin\Debug-x64\ScrapEngine\ScrapEngine.lib and object D:\ScrapEngine\bin\Debug-x64\ScrapEngine\ScrapEngine.exp
-  ScrapEngine.vcxproj -> D:\ScrapEngine\bin\Debug-x64\ScrapEngine\ScrapEngine.dll
