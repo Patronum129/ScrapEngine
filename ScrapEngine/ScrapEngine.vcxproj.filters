@@ -35,6 +35,8 @@
       <Filter>ScrapEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\sepch.h" />
+    <ClInclude Include="src\ScrapEngine\Window.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\ScrapEngine\Application.cpp">
@@ -44,5 +46,6 @@
       <Filter>ScrapEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\sepch.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>

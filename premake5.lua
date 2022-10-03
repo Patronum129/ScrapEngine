@@ -5,6 +5,12 @@ workspace "ScrapEngine"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "ScrapEngine/vendor/GLFW/include"
+
+include "ScrapEngine/vendor/GLFW"
+
 project "ScrapEngine"
     location "ScrapEngine"
     kind "SharedLib"
@@ -19,7 +25,9 @@ project "ScrapEngine"
     files { "%{prj.name}/src/**.h", 
             "%{prj.name}/src/**.cpp" }
 
-    includedirs { "%{prj.name}/src", "%{prj.name}/vendor/spdlog/include" }
+    includedirs { "%{prj.name}/src", "%{prj.name}/vendor/spdlog/include", "%{IncludeDir.GLFW}" }
+
+    links {"GLFW", "opengl32.lib"}
 
     filter "system:windows"
         cppdialect "c++17"
