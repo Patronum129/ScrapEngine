@@ -13,6 +13,9 @@ project "ScrapEngine"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
     
+    pchheader "sepch.h"
+    pchsource "ScrapEngine/src/sepch.cpp"
+
     files { "%{prj.name}/src/**.h", 
             "%{prj.name}/src/**.cpp" }
 

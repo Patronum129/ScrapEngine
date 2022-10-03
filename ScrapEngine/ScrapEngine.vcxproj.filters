@@ -4,6 +4,9 @@
     <Filter Include="ScrapEngine">
       <UniqueIdentifier>{F4FE5973-60B4-D268-E9A8-CC3F555DC96C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ScrapEngine\Events">
+      <UniqueIdentifier>{58D0A460-44B4-65B6-AD14-600999175038}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ScrapEngine.h" />
@@ -16,13 +19,22 @@
     <ClInclude Include="src\ScrapEngine\EntryPoint.h">
       <Filter>ScrapEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\ScrapEngine\Events\ApplicationEvent.h">
+      <Filter>ScrapEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScrapEngine\Events\Event.h">
+      <Filter>ScrapEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScrapEngine\Events\KeyEvent.h">
+      <Filter>ScrapEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScrapEngine\Events\MouseEvent.h">
+      <Filter>ScrapEngine\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\ScrapEngine\Log.h">
       <Filter>ScrapEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\ScrapEngine\Events\ApplicationEvent.h" />
-    <ClInclude Include="src\ScrapEngine\Events\Event.h" />
-    <ClInclude Include="src\ScrapEngine\Events\KeyEvent.h" />
-    <ClInclude Include="src\ScrapEngine\Events\MouseEvent.h" />
+    <ClInclude Include="src\sepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\ScrapEngine\Application.cpp">
@@ -31,5 +43,6 @@
     <ClCompile Include="src\ScrapEngine\Log.cpp">
       <Filter>ScrapEngine</Filter>
     </ClCompile>
+    <ClCompile Include="src\sepch.cpp" />
   </ItemGroup>
 </Project>

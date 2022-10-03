@@ -1,6 +1,6 @@
 ﻿  SandboxApp.cpp
-D:\ScrapEngine\ScrapEngine\src\ScrapEngine\Log.h(21,54): warning C4251: 'ScrapEngine::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'ScrapEngine::Log'
+D:\ScrapEngine\ScrapEngine\src\ScrapEngine\Log.h(19,54): warning C4251: 'ScrapEngine::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'ScrapEngine::Log'
 D:\ScrapEngine\ScrapEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
-D:\ScrapEngine\ScrapEngine\src\ScrapEngine\Log.h(22,56): warning C4251: 'ScrapEngine::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'ScrapEngine::Log'
+D:\ScrapEngine\ScrapEngine\src\ScrapEngine\Log.h(20,56): warning C4251: 'ScrapEngine::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'ScrapEngine::Log'
 D:\ScrapEngine\ScrapEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
   Sandbox.vcxproj -> D:\ScrapEngine\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe

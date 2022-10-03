@@ -1,9 +1,7 @@
 #pragma once
 
+#include "sepch.h"
 #include "ScrapEngine/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace ScrapEngine {
 
