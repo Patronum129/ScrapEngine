@@ -1,1 +1,5 @@
-﻿  ScrapEngine.vcxproj -> D:\ScrapEngine\bin\Debug-windows-x86_64\ScrapEngine\ScrapEngine.dll
+﻿  Application.cpp
+D:\ScrapEngine\ScrapEngine\src\ScrapEngine\Application.h(21,35): warning C4251: 'ScrapEngine::Application::m_Window': class 'std::unique_ptr<ScrapEngine::Window,std::default_delete<ScrapEngine::Window>>' needs to have dll-interface to be used by clients of class 'ScrapEngine::Application'
+D:\ScrapEngine\ScrapEngine\src\ScrapEngine\Application.h(21): message : see declaration of 'std::unique_ptr<ScrapEngine::Window,std::default_delete<ScrapEngine::Window>>'
+     Creating library ..\bin\Debug-windows-x86_64\ScrapEngine\ScrapEngine.lib and object ..\bin\Debug-windows-x86_64\ScrapEngine\ScrapEngine.exp
+  ScrapEngine.vcxproj -> D:\ScrapEngine\bin\Debug-windows-x86_64\ScrapEngine\ScrapEngine.dll
